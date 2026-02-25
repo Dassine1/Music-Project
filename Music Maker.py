@@ -29,7 +29,6 @@ class MusicMaker:
 
 MusicMaker(notes)
 
-duration1 = Duration().addNotes(["A3", "G2", "C5", "F1", "Bb4"]s)
 
 first_pause = time.sleep(0.75)
 second_pause = time.sleep(0.75)
