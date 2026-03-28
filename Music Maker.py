@@ -11,19 +11,19 @@ notes = {
 
 class MusicMaker:
     def __init__(self, notes, duration):
-        self.__notes = notes
-        self.__duration = duration
+        self.notes = notes
+        self.duration = duration
 
 
     def get(self):
-        return self.__notes and self.__duration
+        return self.notes and self.duration
     
     
     def set(self, notes, duration):
         if notes != notes:
             print("Enter a valid note from the dictionary")
         else:
-            return self.__notes and self.__duration
+            return self.notes and self.duration
 
 
 
